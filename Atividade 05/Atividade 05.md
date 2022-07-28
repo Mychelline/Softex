@@ -31,8 +31,9 @@ Então, o transporte escolhido foi a bicicleta.
 
 Seguindo as orientação da tutora irei utilizar a linguagem de programação Javascript para a resolução dessa atividade.
 
+```
 <script>
-Seguindo as orientação da tutora irei utilizar a linguagem de programação Javascript para a resolução dessa atividade. 
+
 
 //Importação da biblioteca
 let input = require('prompt-sync')();
@@ -46,7 +47,7 @@ var terrestre = " ", aereo = " ", aquatico = " ";
       console.log("É pesado? (sim ou nao)");
       var epesado = input();
       if (epesado == "sim"){
-        console.log("Então, o transporte escolhido foi o TRATOR");      
+        console.log("Então, o transporte escolhido foi o TRATOR");
       }else{
         console.log("Tem pedal? (sim ou nao)");
         var temPedal = input();
@@ -59,7 +60,7 @@ var terrestre = " ", aereo = " ", aquatico = " ";
       var usaCapacete = input();
       if(usaCapacete == "sim"){
       console.log("Então, o transporte escolhido foi a MOTO");
-      
+
     } else if(usaCapacete == "nao"){
       console.log("Tem passageiro? (sim ou nao)");
       var temPassageiro = input();
@@ -98,7 +99,7 @@ var terrestre = " ", aereo = " ", aquatico = " ";
       }
       else{
         console.log("Não é um veiculo terrestre!")
-      }  
+      }
     }
   }
     //fim de terrestre
@@ -136,9 +137,9 @@ var terrestre = " ", aereo = " ", aquatico = " ";
             }
           }
         }
-      }  
+      }
     //fim de aereo
-    } else if (aereo == "nao") { 
+    } else if (aereo == "nao") {
     console.log("O meio de transporte é aquatico?(sim ou nao)");
     var aquatico = input();
     if(aquatico == "sim"){
@@ -174,7 +175,7 @@ var terrestre = " ", aereo = " ", aquatico = " ";
         }
       }
 
-    }  
+    }
     //fim de aquatico
     }else{
     console.log("Meio de transporte invalido");
@@ -182,3 +183,4 @@ var terrestre = " ", aereo = " ", aquatico = " ";
   }
  }
 </script>
+```

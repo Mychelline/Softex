@@ -16,7 +16,7 @@
 Apresente as informações solicitadas no final do cadastro.
 
 ### Seguindo as orientação da tutora irei utilizar a linguagem de programação Javascript para a resolução dessa atividade.
-
+```
 let input = require('prompt-sync')();
 console.log("Modelo de cadastro \n");
 console.log("Digite o nome do usuário: ");
@@ -42,3 +42,4 @@ var renda = input();
 
 console.log("Cadastro realizado com sucesso!! \n\n");
 console.log("Bem-vindo " + nome + " atualmente você reside na " + endereco + "-" + cidade + ".\n" + "Seu CPF é: " + cpf + " e RG: " + rg + ".\n" + "Voce tem " + idade + " anos de idade. Seu pai é: " + nomePai + " e sua mãe: " + nomeMae + ".\n" + "Seu peso é de: " + peso + " quilos e sua renda é de: R$ " + renda + " reais");
+```

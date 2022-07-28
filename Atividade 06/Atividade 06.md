@@ -10,9 +10,10 @@
 
 #### Seguindo as orientação da tutora irei utilizar a linguagem de programação Javascript para a resolução dessa atividade.
 
+```
 <script>
-  let input = require('prompt-sync')();
-var turmaA = "A", turmaB = "B", turmaC = "C", turmaD = "D"; 
+let input = require('prompt-sync')();
+var turmaA = "A", turmaB = "B", turmaC = "C", turmaD = "D";
 var maiorNotaA = 0, maiorNotaB = 0, maiorNotaC = 0, maiorNotaD = 0;
 var aprovadosA = 0, aprovadosB = 0, aprovadosC = 0, aprovadosD = 0;
 var melhorAlunoA = 0, melhorAlunoB = 0, melhorAlunoC = 0, melhorAlunoD = 0;
@@ -25,7 +26,7 @@ do{
         console.log("Digite o nome do "+ contador + "º aluno: " );
         var nomeAluno = input();
         console.log("Digite a nota do aluno: " );
-        var notaAluno = input(); 
+        var notaAluno = input();
         console.clear();
         if(notaAluno >= 7){
           aprovadosA++;
@@ -35,7 +36,7 @@ do{
             melhorAlunoA = nomeAluno;
         }
         contador++;
-      }  
+      }
       console.log("O numero de alunos aprovados na turma 'A' foi de: " + aprovadosA + " Aluno(s)");
       console.log("A maior nota da turma 'A' foi de: " + melhorAlunoA + " com a nota " + maiorNotaA);
       contador = 1;
@@ -46,7 +47,7 @@ do{
       console.log("Digite o nome do "+ contador + "º aluno: " );
       var nomeAluno = input();
       console.log("Digite a nota do aluno: " );
-      var notaAluno = input(); 
+      var notaAluno = input();
       console.clear();
       if(notaAluno >= 7){
         aprovadosB++;
@@ -56,7 +57,7 @@ do{
           melhorAlunoB = nomeAluno;
       }
       contador++;
-    }  
+    }
     console.log("O numero de alunos aprovados na turma 'B' foi de: " + aprovadosB + " Aluno(s)");
     console.log("A maior nota da turma 'B' foi de: " + melhorAlunoB + " com a nota " + maiorNotaB);
     contador = 1;
@@ -66,7 +67,7 @@ do{
       console.log("Digite o nome do "+ contador + "º aluno: " );
       var nomeAluno = input();
       console.log("Digite a nota do aluno: " );
-      var notaAluno = input(); 
+      var notaAluno = input();
       console.clear();
       if(notaAluno >= 7){
         aprovadosC++;
@@ -76,7 +77,7 @@ do{
           melhorAlunoC = nomeAluno;
       }
       contador++;
-    }  
+    }
     console.log("O numero de alunos aprovados na turma 'C' foi de: " + aprovadosC + " Aluno(s)");
     console.log("A maior nota da turma 'C' foi de: " + melhorAlunoC + " com a nota " + maiorNotaC);
     contador = 1;
@@ -86,7 +87,7 @@ do{
       console.log("Digite o nome do "+ contador + "º aluno: " );
       var nomeAluno = input();
       console.log("Digite a nota do aluno: " );
-      var notaAluno = input(); 
+      var notaAluno = input();
       console.clear();
       if(notaAluno >= 7){
         aprovadosD++;
@@ -96,7 +97,7 @@ do{
           melhorAlunoD = nomeAluno;
       }
       contador++;
-    }  
+    }
     console.log("O numero de alunos aprovados na turma 'D' foi de: " + aprovadosD + " Aluno(s)");
     console.log("A maior nota da turma 'D' foi de: " + melhorAlunoD + " com a nota " + maiorNotaD);
     contador = 1;
@@ -107,7 +108,7 @@ do{
   var continuar = input();
 }while(continuar == "sim");
 console.clear();
-var totalAlunosAprovados = (aprovadosA + aprovadosB + aprovadosC + aprovadosD); 
+var totalAlunosAprovados = (aprovadosA + aprovadosB + aprovadosC + aprovadosD);
 console.log("O número total de alunos aprovados é: " + totalAlunosAprovados + " alunos(as)");
 console.log("Turma 'A':\n " + aprovadosA + " Alunos aprovados.\n " + maiorNotaA + " foi a maior nota, pertecente ao aluno(a): " + melhorAlunoA);
 console.log("Turma 'B':\n " + aprovadosB + " Alunos aprovados.\n " + maiorNotaB + " foi a maior nota, pertecente ao aluno(a): " + melhorAlunoB);
@@ -120,3 +121,4 @@ var maiorABCD = ((maiorAB>maiorCD)?maiorAB:maiorCD);
 console.log("A maior nota da escola é: " + maiorABCD);
 
 </script>
+```

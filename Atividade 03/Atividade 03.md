@@ -14,7 +14,7 @@
 3. Utilizado o comando de atribuição.
 
 ### Seguindo as orientação da tutora irei utilizar a linguagem de programação Javascript para a resolução dessa atividade.
-
+```
 <script> 
      var nome = “José Almeida da Silva”;
      var cpf = 12345678900; //Levando em consideração um CPF apenas numérico sem “.” ou “-”
@@ -22,5 +22,5 @@
      var altura = 1.78;
      var endereço = “Rua A, 380 – Centro – Recife/PE”;
 </script>
-
+```
 O JavaScript é tido como uma linguagem fracamente tipada, dessa forma não é necessario definir o tipo da variavel em sua declaração, uma vez que esse tipo pode ser alterada em qual quer momento durante a execução do projeto.
