@@ -18,7 +18,6 @@ def calculadora(x, y, z):
       else:
         return x / y
 
- 
 print('======== Programa Calculadora Básica ======== ')
 while (mensagem != 'nao'):
   z = int(input('Escolha a operação matemática: \n1: Adição\n2: Subtração\n3: Multiplicação\n4: Divisão\n0: Sair\n'))  
