@@ -6,7 +6,21 @@ Não é necessário, mas, caso deseje tornar o sistema mais realista para que o 
 
 
 ```
-<script>
+<python>
+import time
+def contagemExplosao(t):
+  while t:
+    mins, secs = divmod(t, 60) 
+    timer = '{:02d}:{:02d}'.format(mins, secs) 
+    print(timer, end="\r") 
+    time.sleep(1) 
+    t -= 1
+  print('BUM!')
+
+t = input('Informe a quantidade de segundos para explosão: ')
+contagemExplosao(int(t))
+</python>
+<javaScript>
 let input = require('prompt-sync')()
 console.log('Informe a quantidade de segundos para explosão: ');
 let tempoExplosao = input(); 
@@ -20,5 +34,5 @@ let interval = setInterval(() =>{
   }
 }, 1000);
 console.clear();
-</script>
+</javaScript>
 ```
